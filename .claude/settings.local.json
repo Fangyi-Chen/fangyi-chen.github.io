@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(ls -la /Users/fangyic/Desktop/loveada/me/fangyi-chen.github.io/_*)",
+      "Bash(gh api:*)"
+    ]
+  }
+}
