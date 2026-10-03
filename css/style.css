@@ -277,8 +277,10 @@ hr {
   border: 1px solid #e8e8e8;
   border-radius: 12px;
   position: relative;
-  padding-top: 20px;
-  padding-bottom: 10px;
+  display: flex;
+  align-items: center;
+  padding-top: 15px;
+  padding-bottom: 15px;
   transition: all 0.3s ease;
   box-shadow: 0 2px 12px rgba(0, 0, 0, 0.04);
 }
@@ -366,9 +368,13 @@ hr {
 .timeline-body > p,
 .timeline-body > ul {
   padding: 0 15px;
-  margin-bottom: 0;
+  margin: 0;
   color: #636e72;
   font-size: 14px;
+}
+
+.timeline-body > p.role-gap {
+  margin-top: 8px;
 }
 
 .timeline-footer {
